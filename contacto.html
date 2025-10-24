@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!--
+    Módulo: Lenguaje de marcas y Sistemas de gestión de la información 
+    Tarea: LMSGI02 Tarea evaluativa 2. (80%) Sitio Web
+    Unidad Didáctica: UD02 Desarrollo web con HTML5 y CSS3
+    Autor: Fiz Vázquez Ripoll
+    Fecha: 22/10/2025
+  -->
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="description" content="Curriculum Vitae">
+  	<meta name="keywords" content="HTML5">
+	  <title>Elite Guitars</title>
+    <link rel="stylesheet" href="./css/formato.css">
+	</head>
+	<body id='contacto'>
+
+    <!-- la cabecera de la web -->
+    <header>
+      <div id='logo'>
+        <img src="./img/logo-mini.png">
+      </div>
+      <nav>
+        <ul>
+          <li><a href='./index.html'>Inicio</a></li>
+          <li><a href='./noticias.html'>Noticias</a></li>
+          <li><a href='./productos.html'>Productos</a></li>
+          <li><a href='./contacto.html'>Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- el contenido principal -->
+    <main>
+      <h1>Contacto</h1>
+      <div class='banner1'>
+        <img src='./img/ampli.jpg'>
+      </div>
+      <section>
+        <p>
+          Si tienes alguna duda, sugerencia o quieres ponerte en contacto con nosotros, completa el siguiente formulario y te responderemos lo antes posible. ¡Gracias por escribirnos!
+        </p>
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    
+    <!-- el pie de pagina -->
+    <footer>
+      <div class='columns'>
+        <section>
+            <h2>Sobre Nosotros</h2>
+            <ul>
+              <li> ¿Quiénes somos? </li>
+              <li> Prensa </li>
+              <li> ¿Dónde estamos? </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Ayuda</h2>
+            <ul>
+              <li> Contacto </li>
+              <li> Centro de Ayuda </li>
+              <li> Entrega </li>
+              <li> Devoluciones </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Condiciones Legales</h2>
+            <ul>
+              <li> Condiciones de uso </li>
+              <li> Condiciones de venta </li>
+              <li> Cookies y privacidad </li>
+              <li> Protección de datos </li>
+            </ul>
+        </section>
+      </div>
+    </footer>
+	</body>
+</html>
